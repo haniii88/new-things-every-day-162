@@ -9,7 +9,7 @@ function dailyLog162() {
 
   const total = expenses.reduce((sum, item) => sum + item.amount, 0);
   const largest = expenses.reduce((max, item) =>
-    item.amount > max.amount ? item : max
+    item.amount > max.amount ? item : ma
   );
 
   const report = {
